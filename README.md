@@ -280,3 +280,37 @@ This project uses simulated healthcare data for learning, demonstration, and por
 Data Analyst | Agritech & Public Health | Data Systems, Automation & Analytics
 
 GitHub: [sir-haroon](https://github.com/sir-haroon)
+
+## Power BI Dashboard
+
+An interactive five-page healthcare analytics dashboard developed using Microsoft Power BI to explore patient demographics, healthcare utilisation, diagnoses, and treatment patterns.
+
+The dashboard connects to the PostgreSQL database created through this project's data pipeline.
+
+### Dashboard Preview
+
+**1. Healthcare Overview**
+
+![Healthcare Overview](powerbi/healthcare-overview.png)
+
+**2. Patient Demographics**
+
+![Patient Demographics](powerbi/patient-demographics.png)
+
+**3. Healthcare Utilisation**
+
+![Healthcare Utilisation](powerbi/healthcare-utilisation.png)
+
+**4. Diagnosis Analysis**
+
+![Diagnosis Analysis](powerbi/diagnosis-analysis.png)
+
+**5. Treatment Analysis**
+
+![Treatment Analysis](powerbi/treatment-analysis.png)
+
+### Download the Dashboard
+
+[Download the Power BI Dashboard](powerbi/Community_Health_Dashboard.pbix)
+
+See the [Power BI documentation](powerbi/README.md) for details about the dashboard, its visuals, data
