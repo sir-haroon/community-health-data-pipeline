@@ -250,3 +250,20 @@ This project uses simulated healthcare data for learning, demonstration, and por
 **Haruna Kudu**
 
 Data Analyst | Agritech & Public Health | Data Systems, Automation & Analytics
+
+## Data Visualisations
+
+### 1. Patient Age Distribution
+![Patient Age Distribution](reports/demographics/age_distribution.png)
+
+### 2. Patient Gender Distribution
+![Patient Gender Distribution](reports/demographics/gender_distribution.png)
+
+### 3. Patient Distribution by LGA
+![Patient Distribution by LGA](reports/demographics/patient_distribution_by_lga.png)
+
+### 4. Monthly Healthcare Visits
+![Monthly Healthcare Visits](reports/healthcare_trends/monthly_healthcare_visits.png)
+
+### 5. Top 10 Diagnoses
+![Top 10 Diagnoses](reports/healthcare_trends/top_10_diagnoses.png)
