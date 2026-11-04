@@ -61,6 +61,24 @@ The project follows these major stages:
 6. **SQL analysis:** Query the database to extract healthcare insights.
 7. **Visualisation:** Generate charts showing demographic patterns and healthcare trends.
 
+### Pipeline Workflow
+
+```mermaid
+flowchart TD
+    A["Raw Healthcare CSV Files"] --> B["Data Extraction"]
+    B --> C["Data Transformation<br/>Python & Pandas"]
+    C --> D["Data Validation"]
+    D --> E["PostgreSQL Database"]
+    E --> F["SQL Analysis"]
+    E --> G["Python Analytics"]
+    F --> H["Insights & Reports"]
+    G --> H
+    H --> I["Data Visualisations<br/>Charts & Reports"]
+
+    style A fill:#dbeafe,stroke:#2563eb
+    style E fill:#dcfce7,stroke:#16a34a
+    style I fill:#fef3c7,stroke:#d97706
+
 ## Database Design
 
 The PostgreSQL database consists of five relational tables:
